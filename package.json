@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "enabled-engines": ["vertx", "postgres", "kafka", "flink"],
+  "profiles": ["datasqrl.profile.default"],
+  "script": {
+    "main": "myudf.sqrl",
+    "graphql": "myudf.graphqls"
+  }
+}
