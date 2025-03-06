@@ -1,0 +1,9 @@
+---
+name: "entry"
+schema_version: "1"
+partial_schema: false
+columns:
+- name: "val"
+  type: "BIGINT"
+  tests:
+  - "not_null"

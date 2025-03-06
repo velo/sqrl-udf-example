@@ -1,4 +1,4 @@
-IMPORT myudf.Entry;
+IMPORT mydata.Entry;
 -- In prod, copy the jar into a sensibly named folder. In this example
 -- we'll use the folder that maven automatically creates for simplicity.
 -- The path is folder/functions

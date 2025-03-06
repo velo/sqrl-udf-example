@@ -6,15 +6,3 @@ type MyTable {
   val: Int!
   myFnc: Int!
 }
-
-type Mutation {
-  entry(input: Entry!): EntryResponse!
-}
-
-input Entry {
-  val: Int!
-}
-
-type EntryResponse {
-  val: Int!
-}
